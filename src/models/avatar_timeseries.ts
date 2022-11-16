@@ -9,17 +9,15 @@ const Schema = new mongoose.Schema({
         type: String,
         required: true
     },
-    floor_prices: [{
-        amount: {
+    timeseries: [{
+        floor_price: {
             type: Number
         },
-        expireAt: {
-            type: Date
-        }
-    }],
-    last_sales: [{
-        amount: {
+        last_sale: {
             type: Number
+        },
+        createdAt: {
+            type: Date
         },
         expireAt: {
             type: Date
