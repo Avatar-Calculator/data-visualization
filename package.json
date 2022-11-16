@@ -1,0 +1,32 @@
+{
+  "name": "data-visualization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avatar-Calculator/data-visualization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avatar-Calculator/data-visualization/issues"
+  },
+  "homepage": "https://github.com/Avatar-Calculator/data-visualization#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.7.2",
+    "node-cron": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/node-cron": "^3.0.6"
+  }
+}
